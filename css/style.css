@@ -99,15 +99,15 @@ a {
 }
 
 #about p {
-    margin-top: 15px;
-    max-width: 650px;
     margin: 0 auto;
-    font-size: 2.2rem;
+    padding: 0 10px;
+    max-width: 650px;
+    font-size: 2.1rem;
 }
 
 #about h3 {
     margin-top: 15px;
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .about__social {
