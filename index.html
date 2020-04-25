@@ -4,11 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Video Background</title>
 </head>
 
 <body>
+    <section class="preview">
+        <div class="preview__video-container">
+            <video src="video/main_video.mp4" autoplay muted loop></video>
+            <!-- To avoid black bars on top and bottom 1080p video should be scaled -->
+        </div>
+        <div class="preview__content">
+            <h1>Rally Finland</h1>
+            <h3>Full screen landing page</h3>
+            <a href="#about" class="preview__content-btn">Contact Me</a>
+        </div>
+    </section>
 
+    <section id="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium assumenda mollitia exercitationem, harum ab ut dolorum perspiciatis, quae rem sed, iusto possimus asperiores minus distinctio illo est optio ex nobis!</p>
+
+        <h3>Contact me on social media</h3>
+        <div class="about__social">
+            <a href="https://t.me/i_khrustalev"><i class="fab fa-telegram fa-5x"></i></a>
+            <a href="https://www.instagram.com/i_khrustalev/"><i class="fab fa-instagram-square fa-5x"></i></a>
+            <a href="https://github.com/khrustalevDev"><i class="fab fa-github fa-5x"></i></a>
+        </div>
+    </section>
 </body>
 
 </html>
